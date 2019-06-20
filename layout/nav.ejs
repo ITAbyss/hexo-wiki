@@ -1,0 +1,16 @@
+<ul id="menu">
+	<%# 内部链接本页面直接跳转 %>
+	<% for ( menu in theme.menus ) { %>
+    <li class="menu-item">
+        <a href="<%- theme.menus[menu] %>" class="menu-item-link"><%- menu %></a>
+    </li>
+    <% } %>
+
+    <%# 外部链接打开新的窗口跳转 %>
+    <% for ( link in theme.links ) { %>
+    <li class="menu-item">
+        <a href="<%- theme.links[link] %>" class="menu-item-link" target="_blank"><%- link %></a>
+    </li>
+    <% } %>
+
+</ul>
