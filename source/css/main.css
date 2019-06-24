@@ -11,7 +11,7 @@ html, body, #main {
 }
 
 aside {
-	width: 320px;
+	width: 300px;
 	height: 100%;
 	position: fixed;
 	background: #262a30;
@@ -24,7 +24,7 @@ nav {
 
 #content {
 	height: 100%;
-	padding-left: 320px;
+	padding-left: 300px;
 	/*background: #f9f7ed;*/
 }
 /* #################### 全局 #################### */
