@@ -377,6 +377,7 @@ aside #toc a:hover{
     right: 15px;
     margin-top: 140px;
     text-decoration: none;
+    z-index: 1;
 }
 
 #articleList .article-title {
@@ -395,5 +396,27 @@ canvas#live2dcanvas {
     border: 0 !important;
     left: 0;
 }
+
+
+/* #################### 自适应 #################### */
+
+@media screen and (max-width: 800px) {
+	aside {
+		display: none;
+	}
+
+	#content {
+		padding-left: 0;
+	}
+
+	canvas#live2dcanvas {
+		display: none;
+	}
+}
+
+/* #################### 自适应 #################### */
+
+
+
 
 
