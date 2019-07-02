@@ -400,6 +400,8 @@ canvas#live2dcanvas {
 
 /* #################### 自适应 #################### */
 
+/* 当浏览器窗口不超过最大800px时(意思就是小于800px时) */
+
 @media screen and (max-width: 800px) {
 	aside {
 		display: none;
@@ -412,6 +414,23 @@ canvas#live2dcanvas {
 	canvas#live2dcanvas {
 		display: none;
 	}
+}
+
+/*竖屏*/
+@media all and (orientation : portrait) {
+
+	aside {
+		display: none;
+	}
+
+	#content {
+		padding-left: 0;
+	}
+
+	canvas#live2dcanvas {
+		display: none;
+	}
+
 }
 
 /* #################### 自适应 #################### */
